@@ -1,0 +1,75 @@
+body {
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    table,
+    td {
+    margin: auto;
+    }
+    th {
+    color: cornflowerblue;
+    text-transform: uppercase;
+    }
+    td {
+    width: 100px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    }
+    h1 {
+    color: cornflowerblue;
+    }
+    button {
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    }
+    .btn-grp {
+    margin-bottom: 20px;
+    }
+    .active {
+    color: red;
+    }
+    #search {
+    margin: 10px;
+    }
+    .div-rbtn {
+    margin: 5px 30px;
+    display: inline;
+    }
+    #btn-add-student {
+    margin: 10px;
+    padding: 6px;
+    }
+    #btn-add-student:hover {
+    background-color: cornflowerblue;
+    }
+    #div-add {
+    margin: 10px auto;
+    background-color: cornflowerblue;
+    width: 50%;
+    text-align: center;
+    }
+    #btn-grp-edit input {
+    margin: 10px;
+    padding: 5px;
+    }
+    .wrapper_ip {
+    /* width: 50%; */
+    margin: 10px;
+    padding: 10px;
+    }
+    #message,
+    #action-message {
+    font-size: smaller;
+    color: red;
+    padding: 5px;
+    }
+    .hide {
+    display: none;
+    }
+    .show {
+    display: block;
+    }

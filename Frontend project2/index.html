@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initialscale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>CRUD Application</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<h1 id="heading"></h1>
+<div id="action-message"></div>
+<div id="div-content">
+<input type="button" id="btn-add-student" value="Add a
+Student" />
+<div id="search">
+<input type="text" name="" id="ip-txt" placeholder="Enter
+name" />
+</div>
+<div class="btn-grp">
+<div class="div-rbtn">
+ Show All<input type="radio" name="show" id="" checked />
+</div>
+<div class="div-rbtn">
+ Marks>=50<input type="radio" name="show" id="" />
+</div>
+<div class="div-rbtn">
+ Marks<50<input type="radio" name="show" id="" />
+</div>
+</div>
+<table id="table-student"></table>
+</div>
+<div id="div-add" class="hide">
+<div id="message"></div>
+<div class="wrapper_ip">
+ Rollno: <input type="text" name="rollno" id="rollno" />
+</div>
+<div class="wrapper_ip">
+ Name: <input type="text" name="name" id="name" />
+</div>
+<div class="wrapper_ip">
+ Marks: <input type="text" name="marks" id="marks" />
+</div>
+<div id="btn-grp-edit">
+<input type="button" id="btn-add" value="Add" /><input
+type="button"
+id="btn-cancel"
+value="Cancel"
+/>
+</div>
+</div>
+<script src="/main.js" type="module"></script>
+</body>
+</html>
